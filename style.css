@@ -1,0 +1,87 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.square {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    background: white;
+    padding-bottom: 30%;
+    border-radius: 12%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+#container {
+    margin: 20px auto; 
+    max-width: 600px;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center; 
+    background-color: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 150%;
+    padding: 20px 0;
+}
+
+#line {
+    margin: 0 auto; 
+    max-width: 400px;
+    height: inherit;
+}
+
+#pasek {
+    text-align: center;
+    background: white;
+    height: 30px;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+#searchedColor {
+    font-size: 150%;
+}
+
+button {
+    border-style: none;
+    color: steelblue;   
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: none;
+    height: 100%;
+    letter-spacing: 1.5px;
+    margin: 0 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+button:active, button:focus {
+outline: 0;
+}
+
+#comment {
+    line-height: 30px;
+    display: inline-block;
+    width: 10%;
+}
+
+
